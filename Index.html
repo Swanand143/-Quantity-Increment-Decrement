@@ -117,7 +117,7 @@
         if (quantity < 10) {
           quantityText.innerText = ++quantity;
         } else {
-          alert("You can't add more than 20 items");
+          alert("Only 10 Items purchase at a time");
         }
         quantityInfo[0].innerText = `${quantity} x ₹38,999/-`;
         quantityInfo[1].innerText = `Total ₹ ${quantity * 38999}`;
@@ -128,7 +128,7 @@
         if (quantity > 1) {
           quantityText.innerText = --quantity;
         } else {
-          alert("You can't add less than 1 items");
+          alert("At Least 1 Item You Have To Buy");
         }
         quantityInfo[0].innerText = `${quantity} x₹38,999/-`;
         quantityInfo[1].innerText = `Total ₹ ${quantity * 38999}`;
